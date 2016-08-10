@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Le styles -->
+<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+</head>
+ 
+<body>
+ 
+<ul class="nav nav-tabs">
+							<li><a href="#home" data-toggle="tab">Home</a></li>
+							<li><a href="#profile" data-toggle="tab">Profile</a></li>
+							<li><a href="#messages" data-toggle="tab">Messages</a></li>
+							<li><a href="#settings" data-toggle="tab">Settings</a></li>
+							</ul>
+						
+ 
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+$('#tabs').tab();
+});
+</script>
+ 
+<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+ 
+</body>
+</html> 
